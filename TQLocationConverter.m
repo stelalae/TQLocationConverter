@@ -256,15 +256,42 @@ static bool isContains(CLLocationCoordinate2D point, CLLocationCoordinate2D p1, 
     [polygonOfChina
      addObject:[NSValue valueWithCGPoint:CGPointMake(21.9936323233,
                                                      113.4625292629)]];
-    [polygonOfChina
-     addObject:[NSValue valueWithCGPoint:CGPointMake(22.1818312942,
-                                                     113.4258358111)]];
+      
+    // 补充澳门边界经纬度，完善边界判断
+    //[polygonOfChina
+    // addObject:[NSValue valueWithCGPoint:CGPointMake(22.1818312942,
+    //                                                 113.4258358111)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.089938, 113.577641)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.111911, 113.547944)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.145646, 113.548168)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.184998, 113.527412)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.213314, 113.535695)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.212927, 113.541360)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.216974, 113.544332)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.216795, 113.550716)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.213785, 113.556177)]];
+      
     [polygonOfChina
      addObject:[NSValue valueWithCGPoint:CGPointMake(22.2249729295,
                                                      113.5913115000)]];
     [polygonOfChina
      addObject:[NSValue valueWithCGPoint:CGPointMake(22.4501912753,
                                                      113.8946844490)]];
+      
+    // 补充香港边界经纬度，完善边界判断
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.502431, 114.056090)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.516345, 114.066031)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.516518, 114.083021)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.533166, 114.090864)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.529768, 114.114092)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.538973, 114.125464)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.5407155, 114.1473717)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.5586999, 114.1590063)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.5537909, 114.1789193)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.5499872, 114.2243138)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.544012, 114.226097)]];
+    [polygonOfChina addObject:[NSValue valueWithCGPoint:CGPointMake(22.5537909,114.1789193)]];
+      
     [polygonOfChina
      addObject:[NSValue valueWithCGPoint:CGPointMake(22.5959159322,
                                                      114.3623797842)]];
